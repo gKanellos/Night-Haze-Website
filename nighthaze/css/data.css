@@ -1,0 +1,38 @@
+html{
+
+ height: 100%;
+ /*background: -webkit-radial-gradient(center ellipse, #061a33 0%, #000000 100%);*/ 
+  /*background: radial-gradient(2510% 120% at bottom, #F6E9D1 0%, #2B2A2A 50%,  #131316 100%);*/
+  background: #131316; 
+  overflow: scroll;
+
+}
+
+.slider{
+max-width: 600px;
+max-height: 800px;
+  position: relative;
+  margin: auto; 
+	
+}
+
+.mySlides {
+padding-top: 70px; 
+
+}
+
+.questions {
+max-width: 600px;
+max-height: 800px;
+position: relative;
+margin: auto;
+font-weight: 300px; 
+font-size: .9em; 
+font-family: 'Open Sans', sans-serif;
+color: #FFFFFF;
+
+}
+
+
+
+

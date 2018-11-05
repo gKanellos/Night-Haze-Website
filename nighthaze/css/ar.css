@@ -1,0 +1,57 @@
+html{
+
+ height: 100%;
+
+  background: #131316; 
+  overflow: scroll;
+}
+
+.map{
+
+	margin: 0 auto;
+	display: block;
+	width: 1000px;
+	padding-top: 40px; 
+}
+/*
+a:link {
+
+margin: 0 auto;
+	display: block;
+	width: 50%; 
+	color: white;
+	font-weight: 200px; 
+font-size: .6em; 
+font-family: 'Open Sans', sans-serif;
+text-decoration: none;
+}
+a:hover {
+color: #ffe6b3; 
+
+}*/
+
+.text {
+margin: 0 auto;
+	display: block;
+	width: 50%; 
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+	text-align: center; 
+
+}
+.text a:link{
+font-size: .8em; 
+color: white; 
+text-decoration: none;
+
+}
+
+
+.text a:hover{
+
+color: #D4992A;
+
+}
+
+
+

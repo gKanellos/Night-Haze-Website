@@ -1,0 +1,35 @@
+html{
+
+ height: 100%;
+
+  background: #131316; 
+  overflow: scroll;
+
+}
+
+
+
+.videoFrame{
+  width:100%:
+}
+
+.videoFrame iframe{
+   margin: 0 auto;
+   display: block;
+   width: 560px;
+   padding-top: 40px; 
+}
+#mainText {
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 20px; 
+	width: 50%;
+	font-weight: 200px; 
+font-size: 1em; 
+font-family: 'Open Sans', sans-serif;
+color: #FFFFFF;
+text-align: justify;
+background: -webkit-linear-gradient( #828282 ,#ffe6b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

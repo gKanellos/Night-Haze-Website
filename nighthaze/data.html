@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Data</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<script type="text/javascript" src ="js/processing.js"></script>
+	<link rel="stylesheet" href="css/nightHazeMain.css">
+	<link rel="stylesheet" href="css/data.css">
+
+  
+</head>
+</head>
+<body>
+
+	<div class= "navtrans">
+  <div id="navigationWrapper">
+  
+  <nav>
+    <ul>
+      <li><a href="indexMain.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="data.html">Data</a></li>
+      <li><a href="ar.html">AR</a></li>
+      <li><a href="vr.html">360 Video</a></li>
+    </ul>
+  </nav>
+  
+</div> 
+
+</div>  
+
+<div class="slider">
+  <div class="mySlides" style="width:100%" > <div class="questions"> <span style="font-size:1.7em;"> This data was taken from a group of 70 participants at the University of Southern California. The purpose of this data is to understand how individuals perceive, understand, and are affected by light pollution. </span> <p> <span style ="font-size:.7em ">  Some visualizations do not represent each and every response. For certain questions, individuals did not need to respond if it wasn't applicable to them. </span></p></div> </div> 
+
+  <div class="mySlides" style="width:100%"> <canvas data-processing-sources="data1/data1.pde"></canvas><div class="questions">Number of individuals previously familiar with the concept of light pollution. <span style="color: #e8b653; font-weight: bold;";> 1/10 </span></div> </div>
+
+  <div class="mySlides" style="width:100%"> <canvas data-processing-sources="data2/data2.pde"></canvas> <div class="questions">1. General perceived level of outdoor nighttime brightness based on average night. Level 1 is dark as a natural night and 10 is bright as day. <p> 2. Desired level of overall nighttime brightness for an average night.<span style="color: #e8b653; font-weight: bold;";> 2/10 </span> </p> </div> </div> 
+
+ <div class="mySlides" style="width:100%"> <canvas data-processing-sources="data3/data3.pde"></canvas> <div class="questions"> The desired adjustment of artificial nighttime lighting.<span style="color: #e8b653; font-weight: bold;";> 3/10 </span></div></div> 
+
+ <div class="mySlides" style="width:100%"> <canvas data-processing-sources="data4/data4.pde"></canvas> <div class="questions">Individual responses of the main sources of excessive artificial nighttime light. 
+<span style="color: #e8b653; font-weight: bold;";> 4/10 </span></div> </div> 
+
+  <div class="mySlides" style="width:100%"> <canvas data-processing-sources="data5/data5.pde"></canvas> <div class="questions">If individuals believed artificial nighttime lighting should be reduced on campus, these are the areas. Dots represent one response. If an individual noted more than one place, the lines represent that connection.<span style="color: #e8b653; font-weight: bold;";> 5/10 </span></div></div> 
+
+  <div class="mySlides" style="width:100%"> <canvas data-processing-sources="data6/data6.pde"></canvas><div class="questions"> Yes, no and not certain represent the responses on whether individuals believed excessive nighttime artificial lighting causes or contributes to sleep loss. The circles around yes represent the levels, 1 being a little and 10 being significantly.<span style="color: #e8b653; font-weight: bold;";> 6/10 </span></div></div> 
+
+  <div class="mySlides" style="width:100%"> <canvas data-processing-sources="data7/data7.pde"></canvas> <div class="questions">Responses on the level individuals perceive excess light pollution causes or contributes to symptoms of anxiety, visual fatigue, fatigue, depression, or weariness.<span style="color: #e8b653; font-weight: bold;"> 7/10 </span></div></div> 
+   
+    
+    <div class="mySlides" style="width:100%"> <canvas data-processing-sources="data10/data10.pde"></canvas><div class="questions"> Do you wish you could better see the stars at night?<span style="color: #e8b653; font-weight: bold;";> 8/10 </span></div></div>
+
+    <div class="mySlides" style="width:100%"> <div class="questions">  <img src="legislation2.png"> From the inside moving out, this represents responses on whether individuals would support legislation to reduce light pollution. It then shows for what reasons and whether individuals believe it would be important legislation. <span style="color: #e8b653; font-weight: bold;";> 9/10 </span></div></div> 
+
+    <div class="mySlides" style="width:100%"> <div> <video autoplay loop><source src="video/nightHazevideo.mp4" type="video/mp4"></video></div><div class="questions"> Personal responses on how individuals perceive light pollution influencing personal wellbeing and humanity.<span style="color: #e8b653; font-weight: bold;";> 10/10 </span></div></div> 
+
+    
+   
+  <!--<div class="mySlides" style="width:100%"> <canvas data-processing-sources="Data/data3/data3.pde"></canvas> <canvas data-processing-sources="Data/data3/Table.pde"></canvas> </div>-->
+  
+  <button class="button1" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="button2" onclick="plusDivs(1)">&#10095;</button>
+  
+</div>
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+	
+	
+</body>
+</html>

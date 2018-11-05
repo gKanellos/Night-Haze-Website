@@ -1,0 +1,62 @@
+/*body{
+    background-color: black;
+  margin: 0;
+}*/
+
+
+/*.navtrans {
+background-color: rgba(20,25,37);
+background-color: rgba(20,25,37, 0.15); */
+
+
+}
+.navigationWrapper {
+      margin: 0 auto;
+      width: 80%;
+      background-color:#4286f4; 
+    }
+    
+     nav {
+      margin-top: .5em;
+      display: table;
+      width: 100%;
+      height: 1.4em;
+      border-collapse: collapse;
+      border: none;
+      
+      
+
+    }
+    
+    nav ul {
+      display: table-row;
+     
+    }
+    
+    nav li {
+      
+      display: block;
+      display: table-cell;
+      margin: 0;
+      text-align: center;
+      
+    }
+    
+    nav li a {
+      font-family: 'Raleway', sans-serif;
+      display: block;
+      padding:  1em;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+      color: #FFFFFF;
+    
+    }
+
+
+   
+
+
+
+
+ 
